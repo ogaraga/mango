@@ -36,3 +36,97 @@ span{
 .links a:active{
     color: orangered;
 }
+
+main{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-image:url(project1.jpg);
+    background-size: cover;
+}
+
+main h1{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 40px;
+    
+}
+
+main p{
+    text-align: center;
+     padding-left: 20px;
+     padding-right: 20px;
+}
+
+section{
+    width:auto;
+    height:80PX;
+    background-color: GREY;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+section p{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+section input{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+section button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: orangered;
+    color: white;
+}
+
+aside{
+    height:300px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+aside img{
+    height: 100px;
+    width: 100px;
+    
+
+    
+
+}
+
+.card{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 180px;
+    margin-right: 120px;
+
+}
+
+footer{
+    height: 70px;
+    background-color: orangered;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
